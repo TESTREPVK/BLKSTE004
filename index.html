@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R. Reddington | The Concierge of Crime</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grain-overlay"></div>
+
+    <nav class="navbar">
+        <div class="logo">R.R.</div>
+        <ul class="nav-links">
+            <li><a href="#dossier">The Dossier</a></li>
+            <li><a href="#blacklist">The Blacklist</a></li>
+            <li><a href="#contact">Secure Channel</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="title">Raymond <span class="accent">Reddington</span></h1>
+            <p class="subtitle" id="typewriter-text"></p>
+            <a href="#blacklist" class="btn-primary">View the List</a>
+        </div>
+    </header>
+
+    <section id="dossier" class="section">
+        <div class="container">
+            <h2 class="section-title">The Information Broker</h2>
+            <div class="dossier-grid">
+                <div class="dossier-card reveal">
+                    <h3>Intelligence</h3>
+                    <p>Access to global secrets, classified operations, and the unseen machinations of the world's elite.</p>
+                </div>
+                <div class="dossier-card reveal">
+                    <h3>Facilitation</h3>
+                    <p>Logistics, extraction, and strategic problem-solving for situations that legally do not exist.</p>
+                </div>
+                <div class="dossier-card reveal">
+                    <h3>The Empire</h3>
+                    <p>A decentralized, untraceable syndicate operating in the shadows of legitimate global commerce.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blacklist" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title">The Blacklist</h2>
+            <p class="section-desc">Politicians, mobsters, spies, and international terrorists. The criminals who matter.</p>
+            
+            <div class="list-container">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <h2 class="footer-title">Need a favor?</h2>
+            <p>Establish a secure connection. Do not use your real name.</p>
+            <form class="secure-form" id="contact-form">
+                <input type="text" placeholder="Alias" required>
+                <textarea placeholder="The Nature of Your Problem..." rows="4" required></textarea>
+                <button type="submit" class="btn-secondary">Transmit Request</button>
+            </form>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 R.R. Syndicate. All operations classified.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
